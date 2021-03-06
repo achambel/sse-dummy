@@ -1,0 +1,11 @@
+{
+  "name": "sse-dump",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
