@@ -17,7 +17,7 @@ function getSample() {
   const random = Math.random() * (all.length - 1);
   const item = Math.floor(random);
 
-  return JSON.stringify(all[item]);
+  return JSON.stringify([all[item]]);
 }
 
 const requestListener = function (req, res) {
