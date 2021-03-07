@@ -26,9 +26,9 @@ const requestListener = function (req, res) {
   res.flushHeaders();
 
   setInterval(() => {
-    res.write(`data: ${getSample()}\n\n`);
+    res.write(`data: ${file}\n\n`);
     res.flushHeaders();
-  }, 3000);
+  }, 5000);
 };
 
 const server = http.createServer(requestListener);
